@@ -7,7 +7,7 @@ layout: page
 cover-img: /img/cover_img_1.png
 ---
 
-# Nutrition And Ecology
+# Political Power
 This project aims to shed some light to the relationship between nutritional value and ecological impact of food.
 Do we need to compromise between eating healthy and protecting the environment?
 Are these aspects even related?
