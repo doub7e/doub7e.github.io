@@ -4,7 +4,8 @@
 
 layout: page
 # bigimg: /img/cover_img_1.png
-cover-img: /img/cover_img_1.png
+cover-img: /img/cover_image_1.png
+title: How Does Political Power Impact Racial Disparities?
 ---
 
 # Political Power
