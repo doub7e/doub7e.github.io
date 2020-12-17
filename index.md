@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-bigimg: /img/indexbg.jpg
+bigimg: /img/cover_img_1.png
 ---
 
 # Nutrition And Ecology
