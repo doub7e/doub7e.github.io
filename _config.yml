@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://yohoy.github.io"
+url: "https://doub7e.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,23 +14,22 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Applied Data Analysis | CS-401 (Fall 2018)
+title: CS-401 Applied Data Analysis (Fall 2020)
 
 # Short description of your site
-description: A project based on the Open Food Facts database, that relates nutritional scores to environmental obervations.
+description: A project based on the 
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  Nutri-Score: "nutri_score"
   Resources:
-    - Open Food Facts: "https://world.openfoodfacts.org/"
-    - GitHub: "https://github.com/Painguin/smart_rams_project"
+    - THE STANFORD OPEN POLICING PROJECT: "https://openpolicing.stanford.edu/"
+    - GitHub: ""
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
+avatar: "/img/epfl.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -62,7 +61,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: David da Rocha, Pedro da Cunha, Tabish Qureshi
+  name: Chenkai WANG, Shuangqi LI, Yulun JIANG
 
 # Truncates the excerpt to the specified number of words on the index page
 excerpt_length: 50
