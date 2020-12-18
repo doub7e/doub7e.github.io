@@ -44,6 +44,14 @@ With the help of Factor Analysis, we calcuted the political power of both white 
 
 Not surprisingly, we found the factor describing political power ranges from -1.21 to -0.22, with mean -0.96 and median -1.04 for black people, while for white people, it ranges from -0.67 to 1.35, with mean 0.96 and mediun 1.02. Indicating the huge superioiry of white people's political power over black people's political power. In the following, we plot the political power of black and white Americans in 8 big states. Note that the range of y axis is different in two figures. We can see that white American keeps its superiority on political power from 2010 to 2018.
 
+## First Glance of the Analysis
+One might assume that a group with greater political power will suffer from less raical dispairities in traffic stop, is that True? In the following, we plot the figure the white search rate and black search rate, with the size indicating the population of each state, and *the color indicating the difference between white's political power and black's political power*.
+
+Clearly, we can see that the point with deeper color deviate more from the line of 'y=x', indicating that the phenomenon of racial disparity is more serious in the place where the difference between white's and black's political power is large. This is in line with our guess. And in the following, we will carry our regression analysis to get a clearer view.
+
+<img src="figures/political_power.png" style="width: 600px;" align="left"/>
+
+
 ## Does Political Power Impact Racial Disparities in Police Stops?
 
 We will test the correlation between political power and the following four outcomes to make a conclusion: a) search rate, b) warning rate c) citation rate, and d) arrest rate.
