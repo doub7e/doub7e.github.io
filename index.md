@@ -9,30 +9,30 @@ title: Political Stops
 subtitle: Does Political Power Impact Racial Disparities in Police Stops?
 ---
 
-#### No one likes being puller over, but
+**No one likes being puller over, but**
 # Did you know...
 
 The Stanford Open Policing Project has shwon us that African American in the US has been suffering racial disparities in traffic police stops across the country. We have been shown that black and Hispanic drivers are more likely to be stopped by police, and the bar for searching black and Hispanic drivers is lower than that for searching white drivers, suggestive of racial profiling. 
 
-(For more details about their work, check out [their project website](https://openpolicing.stanford.edu/))
+(For more details about this work, check out [their project website](https://openpolicing.stanford.edu/))
 
 What their work has also informed us (by studying the legalization of recreational marijuana) is that policy interventions have the power to mitigate these racial disparities.
 
-How can such policy interventions be made? We notice that ***political power*** is an important factor in it. In this project, we aim to 
+How can such policy interventions be made? We notice that ***political power*** is an important factor in it. ***___WHY?___***
+
+In this project, we aim to analyze the political power of black people in ... states and try to identify the correlation between political power and the extent of racial disparities.
 
 ---
 
-
 ## How do We Measure Political Power?
-
-blablabla
-
+A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify ***population***, and ***voting population*** as two latent variables linked to political power. Other two obvious linked factors are ***wealth*** (supporting research:[1](https://doi.org/10.1016/j.jebo.2014.08.006), [2](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and ***education*** (supporting research: [1](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
 
 
 
-## Percentage of African American in Congress
+
+## The Under-Representation of Minorities in Congress
 test1
-<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
+<iframe width="1000" height="500" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
 
 test2
 <div>
