@@ -5,15 +5,12 @@
 layout: page
 bigimg: ["/img/cover_image_1.png", "/img/cover_image_2.png", "/img/cover_image_3.png"]
 # cover-img: /img/cover_image_1.png
-title: Political Traffic Stops
+title: Political Stops
 subtitle: Does Political Power Impact Racial Disparities in Police Stops?
 ---
 
-# Political Power
-This project aims to shed some light to the relationship between nutritional value and ecological impact of food.
-Do we need to compromise between eating healthy and protecting the environment?
-Are these aspects even related?
-To respond to our questions, we worked with the [Open Food Facts](https://fr.openfoodfacts.org/ "Open Food Facts Web Page") dataset, which lists food products from all over the world, along with many interesting fields such as their manufacturing places, macronutrients or even packaging.
+# Introduction
+
 
 ---
 
