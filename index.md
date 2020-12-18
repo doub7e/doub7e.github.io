@@ -18,7 +18,7 @@ The Stanford Open Policing Project has shwon us that African American in the US 
 
 What their work has also informed us (by studying the legalization of recreational marijuana) is that policy interventions have the power to mitigate these racial disparities.
 
-How such policy interventions can be made? We notice that ***political power*** is an important factor in it. In this project, we aim to ...
+How can such policy interventions be made? We notice that ***political power*** is an important factor in it. In this project, we aim to 
 
 ---
 
@@ -27,20 +27,19 @@ How such policy interventions can be made? We notice that ***political power*** 
 
 blablabla
 
+
+
+
+## Percentage of African American in Congress
+test1
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
+
+test2
+<div>
+    <a href="https://plotly.com/~doub7eli/1/?share_key=YxhXU3lXF61EOIBEMG5h8m" target="_blank" title="Plot 1" style="display: block; text-align: center;"><img src="https://plotly.com/~doub7eli/1.png?share_key=YxhXU3lXF61EOIBEMG5h8m" alt="Plot 1" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
+    <script data-plotly="doub7eli:1" sharekey-plotly="YxhXU3lXF61EOIBEMG5h8m" src="https://plotly.com/embed.js" async></script>
+</div>
+
+
 ## ...
 ---
-
-
-
-
-Let's now take a look at the percentage of grades for different food categories. You can hover over the pie charts below to find the percentage and number of values in each of the slices.
-<iframe width="750" height="650" frameborder="0" scrolling="no" src="//plot.ly/~yohoy/1.embed"></iframe>
-
-### Carbon Footprint
-The first ecological factor we consider is the carbon footprint. 
-We might wonder what are the food categories that have the biggest carbon foodprints. 
-It is easy to find out by looking at the following barplot that shows the mean carbon footprint per food category:
-<div>
-    <a href="https://plot.ly/~yohoy/12/?share_key=XYWdXnvu1N8IprYI3Epew3" target="_blank" title="Plot 12" style="display: block; text-align: center;"><img src="https://plot.ly/~yohoy/12.png?share_key=XYWdXnvu1N8IprYI3Epew3" alt="Plot 12" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="yohoy:12" sharekey-plotly="XYWdXnvu1N8IprYI3Epew3" src="https://plot.ly/embed.js" async></script>
-</div>
