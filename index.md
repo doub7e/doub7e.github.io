@@ -24,10 +24,25 @@ In this project, we aim to analyze the political power of black people in ... st
 
 ---
 
-## How do We Measure Political Power?
-A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify ***population***, and ***voting population*** as two latent variables linked to political power. Other two obvious linked factors are ***wealth*** (supporting research:[[1]](https://doi.org/10.1016/j.jebo.2014.08.006), [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and ***education*** (supporting research: [[1]](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
+
+## Is Political Power a Reason for Racial Disparities?
+Based on the Stanford Open Policing Project, we are here to ask, why Black Americans are treated unfairly by the police in the process of driving? One reason might be that the spotted unfair traffic stops are tarteted towards minority groups, who lack the political power to be heard. If minority groups have enough political power, they will be able to put pressure on police departments to deemphasize policing strategies that result in highly disparate patterns of search and arrest. Thus, we hypothesis that the existing racial disparities in traffic stop outcomes for black Americans are the result of lack of political power (note that we focus on just Black Americans in this project).
+
+A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify ***population***, and ***voting population***, ***wealth*** and as ***education***  the latent variables linked to political power (supporting research:[[1]](https://doi.org/10.1016/j.jebo.2014.08.006), [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X), [[3]](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)). First of all, bureaucratic agencies are attuned to the publics they serve, thus groups with larger *population* have greater voice to express their demand, and are less likely to be ignored by officiers. Note that specially pick correlated varialables *population* and *voting population*, because we found that the voting turnout rate varies widely by race (see [here](https://www.pewresearch.org/2020/09/23/the-changing-racial-and-ethnic-composition-of-the-u-s-electorate/) for more details). What's more, a group with more *wealth* will be able to have more political contributions to protect their benefits. Finally, *education* level is a potential factor for political power without doubt.
+
+In this project, we try to measure the political power quantitively through the aforementioned four aspects *population*, and *voting population*, *wealth* and as *education*. We describe the details in the following sections.
 
 
+## Dataset and Preprocessing
+Collecting dataset might be one of the most tiring parts in the project. Luckiy, all the dataset about policing stops are available at the [webpage](https://openpolicing.stanford.edu/) of Stanford Open Policing Project. Regarding to political power, we collect the data of *population* and *voting population* from [American Community Survey (ACS)](https://www.census.gov/en.html) database. It contained the result of elections of all states in US every two years (elections and midterm election). And we pick the data from 2010 to 2018. Besides, we collect dataset about *wealth* and *education* from [IPUMS USA](https://usa.ipums.org/usa/), which contains many samples of peoples' wealth and education situation in each year and each state.
+
+Here are the details for data preprocessing: for *population* and *voting population*, we devide them by the number of total population in each state and get the percentage of population. For *wealth*, we first pick the median value of all samples in each state, then we devide them by the income of median white Americans in that state as normalization. For *education*, we use 0 and 1 to denote wheter one has attended college, then we average the data of all samples in one state. 
+
+After preprocessing, we get the quatitive value of *population*, *voting population*, *wealth* and *education* for each year, each state and each race (black and white). Then we use **factor analysis** to construct a latent dimension of political power in a given community based on four varialables described above. **Factor analysis 的技术细节**。And this factor explains *79.07* % of the variance across the four variables.
+
+Without surprise, we found the factor describing political power ranges from -1.21 to -0.22, with mean -0.96 and median -1.04 for black people, while for white people, it ranges from -0.67 to 1.35, with mean 0.96 and mediun 1.02. Indicating the huge superioiry of white people's political power agains black people's political power. In the following, we plot the political power of black and white Americans in 8 big states. Note that the range of y axis is different in two figures. We can see that white American keeps its superiority on political power from 2010 to 2018. One interesting phenomenon is that black people's political power reaches its top in 2012, which might account to the success of Obama in 2012' eletion.
+
+<img src="figures/political_power.png" style="width: 1000px;" align="left"/>
 
 
 ## The Under-Representation of Minorities in Congress
