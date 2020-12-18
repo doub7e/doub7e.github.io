@@ -50,7 +50,7 @@ We will test the correlation between political power and the following four outc
 
 ## The Under-Representation of Minorities in Congress
 这块可能要不了了
-<iframe width="1000" height="500" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
+<iframe width="800" height="500" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
 
 test2
 <div>
