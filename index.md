@@ -5,7 +5,8 @@
 layout: page
 bigimg: ["/img/cover_image_1.png", "/img/cover_image_2.png", "/img/cover_image_3.png"]
 # cover-img: /img/cover_image_1.png
-title: How Does Political Power Impact Racial Disparities?
+title: Political Traffic Stops
+subtitle: Does Political Power Impact Racial Disparities in Police Stops?
 ---
 
 # Political Power
