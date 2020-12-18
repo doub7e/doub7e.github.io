@@ -44,8 +44,55 @@ Without surprise, we found the factor describing political power ranges from -1.
 
 <img src="figures/political_power.png" style="width: 1000px;" align="left"/>
 
+## Explorative analysis
+
+Here, we conducted a preliminary exploratory analysis using data from 15  American cities. These cities are CA San Diego, CA San Francisco, CA Stockton, CT Hartford, LA New Orleans, NC Charlotte, NC Durham, NC Fayetteville, NC Greensboro, NC Raleigh, NC Winston Salem, OH Columbus, PA Pittsburgh, TN Nashville,  VT Burlington. Since we need the data of search rate, warning rate citation rate, and arrest rate, these 15 ones are all the cities that meet the data requirements. What's more, the number of years with valid data varies by city. In summary, we use data from15 cities with 151 valid years. And all the data can be found at: https://openpolicing.stanford.edu/data/.
+
+<center>Table: The description of four outcomes<center>
+
+|       | bw_search | bw_arrest | bw_citation | bw_warning |
+| :---: | :-------: | :-------: | :---------: | :--------: |
+| count | 15.000000 | 15.000000 |  15.000000  | 15.000000  |
+| mean  | 2.116278  | 1.651394  |  0.957276   |  1.205424  |
+|  std  | 1.199010  | 1.005246  |  0.598655   |  0.658396  |
+|  min  | 0.335821  | 0.130000  |  0.121225   |  0.085131  |
+|  25%  | 1.308114  | 0.990718  |  0.589332   |  0.723890  |
+|  50%  | 2.017767  | 1.676768  |  0.922837   |  1.195433  |
+|  75%  | 3.092054  | 2.110031  |  1.144677   |  1.543879  |
+|  max  | 4.367405  | 3.833067  |  2.341822   |  2.515497  |
+
+
+
+For each outcome, we calculate the black-white ratio, As a reminder, if the calculated value is 1, then black and white drivers are seemed to be equally treated. Values below 1 indicate that white drivers are more possible to commit this outcome than black drivers, while values above 1 indicate that black drivers are more possible to commit this outcome than white drivers. Table 1 presents the summary statistics for these variables. 
+
+Looking at the mean values, searches are 119 percent more common for black drivers than whites. Compared to the search rate, warnings and citations are almost equally likely. And arrests are 65 percent more likely among black drivers, on average.  The minima, 25th percentile value, median, 75th percentile value, and the maxima show the full range of each variable across the years. Searches have a maximum of more than 4 times likely among black drivers. While arrests have a maximum of about 3.8 times likely among black drivers. With a good range of variability for each variable, we test if our theory about political power can explain this variance.
+
+## Regression Analysis
+
+After the obtaining the political power, we explore the the influence of political power on the four outcomes, from the state level. Also from the Stanford Open Policing Project, we have 7 states that meet the data criteria, s.t. Arizona, Massachusetts, Montana, North Carolina, Rhode Island, Vermont, West virginia. And we values our hypothesis from 2010 to 2014. We conducted a regression analysis of political power of the above seven states regarding four outcomes, and the results are shown in the figure.
+
+Figures shows the results of the regressions predicting the black-white outcome ratios. Following from our hypotheses, we expect that the coefﬁcients for our political power should push the predicted outcome to equality. For search rate ratios, warning rate ratios, and arrest rate ratios, this should be a negative coefﬁcient; while for citation rate ratios, this should be positive. And indeed we can find this result in most states.
+
+![resultfigurebw_search](/Users/wangchenkai/Desktop/ADA/ADAP4/resultfigurebw_search.png)
+
+<center>Figure: Search rates varying with political power</center>
+
+![resultfigurebw_arrest](/Users/wangchenkai/Desktop/ADA/ADAP4/resultfigurebw_arrest.png)
+
+<center>Figure: Arrest rates varying with political power</center>
+
+![resultfigurebw_citation](/Users/wangchenkai/Desktop/ADA/ADAP4/resultfigurebw_citation.png)
+
+<center>Figure: Citation rates varying with political power</center>
+
+![resultfigurebw_warning](/Users/wangchenkai/Desktop/ADA/ADAP4/resultfigurebw_warning.png)
+
+<center>Figure: Warning rates varying with political power</center>
+
+Political power is strongly and signiﬁcantly related to three of the four outcomes reviewed, though its effect on arrest ratios does not reach statistical signiﬁcance. We can explore the impact of political power among black and white drivers by looking at simple plots. These figures show how the outcome rate ratio is expected to change across the political power variable. The regression line, which is the predicted value from the regression, is a colored solid line; and the 90 percent conﬁdence interval around the regression line is the shadowed part. Four ﬁgures are presented in identical format. These are the search ratio, arrest ratio, citation ratio, and warning ratio. On the x-axis is the black political power index and on the y-axis the relevant ratio.
 
 ## The Under-Representation of Minorities in Congress
+
 test1
 <iframe width="1000" height="500" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
 
