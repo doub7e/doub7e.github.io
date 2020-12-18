@@ -49,7 +49,7 @@ One might assume that a group with greater political power will suffer from less
 
 Clearly, we can see that the point with deeper color deviate more from the line of 'y=x', indicating that the phenomenon of racial disparity is more serious in the place where the difference between white's and black's political power is large. This is in line with our guess. And in the following, we will carry our regression analysis to get a clearer view.
 
-<img src="figures/first_glance.png" style="width: 1000px;" align="center"/>
+<img src="figures/first_glance.png" style="width: 600px;" align="center"/>
 
 
 ## Does Political Power Impact Racial Disparities in Police Stops?
