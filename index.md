@@ -32,7 +32,7 @@ blablabla
 
 ## Percentage of African American in Congress
 test1
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
+<iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
 
 test2
 <div>
