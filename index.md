@@ -25,7 +25,7 @@ In this project, we aim to analyze the political power of black people in ... st
 ---
 
 ## How do We Measure Political Power?
-A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify ***population***, and ***voting population*** as two latent variables linked to political power. Other two obvious linked factors are ***wealth*** (supporting research:[1](https://doi.org/10.1016/j.jebo.2014.08.006), [2](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and ***education*** (supporting research: [1](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
+A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify ***population***, and ***voting population*** as two latent variables linked to political power. Other two obvious linked factors are ***wealth*** (supporting research:[[1]](https://doi.org/10.1016/j.jebo.2014.08.006), [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and ***education*** (supporting research: [[1]](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
 
 
 
