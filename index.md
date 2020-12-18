@@ -4,34 +4,52 @@
 
 layout: page
 bigimg: ["/img/cover_image_1.png", "/img/cover_image_2.png", "/img/cover_image_3.png"]
-# cover-img: /img/cover_image_1.png
 title: Political Stops
 subtitle: Does Political Power Impact Racial Disparities in Police Stops?
 ---
 
-**No one likes being puller over, but**
+**No one likes being pulled over, but**
 # Did you know...
 
-The Stanford Open Policing Project has shwon us that African American in the US has been suffering racial disparities in traffic police stops across the country. We have been shown that black and Hispanic drivers are more likely to be stopped by police, and the bar for searching black and Hispanic drivers is lower than that for searching white drivers, suggestive of racial profiling. 
+It has been shown that African American in the US has been suffering racial disparities in traffic police stops across the country. The Stanford Open Policing Project has demonstrated that black and Hispanic drivers are stopped by police at a higher rate without more evidence, and the bar for searching black and Hispanic drivers is lower than that for searching white drivers, suggestive of racial profiling. 
 
 (For more details about this work, check out [their project website](https://openpolicing.stanford.edu/))
 
 What their work has also informed us (by studying the legalization of recreational marijuana) is that policy interventions have the power to mitigate these racial disparities.
 
-How can such policy interventions be made? We notice that ***political power*** is an important factor in it. ***___WHY?___***
+How can such policy interventions be made? We notice that ***political power*** is an important factor in it. Intuitively, with political power, disparities are less likely to grow because it would lead to attention, complaints, concern, and political actions to reduce them. Without political power, disparities can continue with impunity and with little relative attention.
 
-In this project, we aim to analyze the political power of black people in ... states and try to identify the correlation between political power and the extent of racial disparities.
+In this project, we aim to analyze the political power of black people in ... states and try to figure out whether the political power has an impact on racial disparities in terms of police stops.
 
 ---
 
-## How do We Measure Political Power?
-A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify ***population***, and ***voting population*** as two latent variables linked to political power. Other two obvious linked factors are ***wealth*** (supporting research:[[1]](https://doi.org/10.1016/j.jebo.2014.08.006), [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and ***education*** (supporting research: [[1]](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
+## How Do We Measure Political Power?
+A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify **presence**, and **voice** as two latent variables linked to political power. Other two obvious linked factors are **wealth** (supporting research:[[1]](https://doi.org/10.1016/j.jebo.2014.08.006), [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and **education** (supporting research: [[3]](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
+
+More concretely, we use **proportion of population**, **proportion of voter population** to represent **presence** and **voice**. Indeed, as a group grows in size, it becomes harder to ignore, thus their political power grows. Presence without voice (voting) can be meaningless. We use **median personal income** and **proportion of college graduates** to represent **wealth** and **education**. Indeed, 谁来编一下. These variables are shown below.
+
+### How Do We Build an Index for Political Power?
+
+Factor Analysis!
+
+详细分析
+
+
+## How Has the Black Political Power Grown?
+
+
+
+## Does Political Power Impact Racial Disparities in Police Stops?
+
+We will test the correlation between political power and the following four outcomes to make a conclusion: a) search rate, b) warning rate c) citation rate, and d) arrest rate.
+
+
 
 
 
 
 ## The Under-Representation of Minorities in Congress
-test1
+这块可能要不了了
 <iframe width="1000" height="500" frameborder="0" scrolling="no" src="//plotly.com/~doub7eli/1.embed"></iframe>
 
 test2
