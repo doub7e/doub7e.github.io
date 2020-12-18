@@ -26,7 +26,7 @@ In this project, we aim to analyze the political power of black people in ... st
 ## How Do We Measure Political Power?
 A group with high political power must be able to exercise certain amount of influence on the political procedures, therefore we identify **presence**, and **voice** as two latent variables linked to political power. Other two obvious linked factors are **wealth** (supporting research:[[1]](https://doi.org/10.1016/j.jebo.2014.08.006), [[2]](https://www.sciencedirect.com/science/article/abs/pii/S0967067X0400008X)) and **education** (supporting research: [[3]](https://www.jstor.org/stable/1050712?seq=1#metadata_info_tab_contents)).
 
-More concretely, we use **proportion of population**, **proportion of voter population** to represent **presence** and **voice**. Indeed, as a group grows in size, it becomes harder to ignore, thus their political power grows. Presence without voice (voting) can be meaningless. We use **median personal income** and **proportion of college graduates** to represent **wealth** and **education**. Indeed, 谁来编一下. These variables are shown below.
+More concretely, we use **proportion of population**, **proportion of voted population** to represent **presence** and **voice**. Indeed, as a group grows in size, it becomes harder to ignore, thus their political power grows. Presence without voice (voting) can be meaningless. We use **median personal income** and **proportion of college graduates** to represent **wealth** and **education**. Indeed, 谁来编一下. These variables are shown below.
 
 ### How Do We Build an Index for Political Power?
 
