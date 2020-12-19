@@ -59,12 +59,6 @@ To see through this problem, we conducted a exploratory analysis using data from
 
 <center>Table: The description of four outcomes<center>
 
----
-
-## Conclusion
-
-We showed how to measure political power and build an index for it. We demonstrated how the political power of white and black people in the US has changed over the last few years. We provided enough evidence that political power does impact racial disparities in police stops. Our work may inspire that minorities in the US should endeavour to become more represented in politics and thus gain more political power for their own interests.
-
 |       | bw_search | bw_arrest | bw_citation | bw_warning |
 | :---: | :-------: | :-------: | :---------: | :--------: |
 | count | 15.000000 | 15.000000 |  15.000000  | 15.000000  |
@@ -104,5 +98,10 @@ Figures shows the results of the regressions predicting the black-white outcome 
 
 Political power is strongly and signiﬁcantly related to three of the four outcomes reviewed, though its effect on arrest ratios does not reach statistical signiﬁcance. We can explore the impact of political power among black and white drivers by looking at simple plots. These figures show how the outcome rate ratio is expected to change across the political power variable. The regression line, which is the predicted value from the regression, is a colored solid line; and the 90 percent conﬁdence interval around the regression line is the shadowed part. Four ﬁgures are presented in identical format. These are the search ratio, arrest ratio, citation ratio, and warning ratio. On the x-axis is the black political power index and on the y-axis the relevant ratio.
 
+---
+
+## Conclusion
+
+We showed how to measure political power and build an index for it. We demonstrated how the political power of white and black people in the US has changed over the last few years. We provided enough evidence that political power does impact racial disparities in police stops. Our work may inspire that minorities in the US should endeavour to become more represented in politics and thus gain more political power for their own interests.
 
 ---
