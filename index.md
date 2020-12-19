@@ -51,7 +51,7 @@ Clearly, we can see that the point with deeper color deviate more from the line 
 
 <div style="text-align: center;">
 <img src="figures/first_glance.png" style="width: 800px;" style="margin: 0 auto;"/>
-
+</div>
 
 ## Does Political Power Impact Racial Disparities in Police Stops?
 
