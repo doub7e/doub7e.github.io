@@ -57,7 +57,7 @@ Clearly, we can see that the point with deeper color deviate more from the line 
 
 To see through this problem, we conducted a exploratory analysis using data from 15  American cities. These cities are CA San Diego, CA San Francisco, CA Stockton, CT Hartford, LA New Orleans, NC Charlotte, NC Durham, NC Fayetteville, NC Greensboro, NC Raleigh, NC Winston Salem, OH Columbus, PA Pittsburgh, TN Nashville,  VT Burlington. Since we need the data of search rate, warning rate citation rate, and arrest rate, these 15 ones are all the cities that meet the data requirements. What's more, the number of years with valid data varies by city. In summary, we use data from15 cities with 151 valid years. And all the data can be found at: https://openpolicing.stanford.edu/data/.
 
-<center>Table: The description of four outcomes<center>
+<h1 align = "center">Table: The description of four outcomes</h1>
 
 |       | bw_search | bw_arrest | bw_citation | bw_warning |
 | :---: | :-------: | :-------: | :---------: | :--------: |
