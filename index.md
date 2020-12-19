@@ -49,7 +49,8 @@ One might assume that a group with greater political power will suffer from less
 
 Clearly, we can see that the point with deeper color deviate more from the line of 'y=x', indicating that the phenomenon of racial disparity is more serious in the place where the difference between white's and black's political power is large. This is in line with our guess. And in the following, we will carry our regression analysis to get a clearer view.
 
-<img src="figures/first_glance.png" style="width: 600px;" style="margin: 0 auto;"/>
+<div style="text-align: center;">
+<img src="figures/first_glance.png" style="width: 800px;" style="margin: 0 auto;"/>
 
 
 ## Does Political Power Impact Racial Disparities in Police Stops?
@@ -57,6 +58,11 @@ Clearly, we can see that the point with deeper color deviate more from the line 
 We will test the correlation between political power and the following four outcomes to make a conclusion: a) search rate, b) warning rate c) citation rate, and d) arrest rate.
 
 
+---
+
+## Conclusion
+
+We showed how to measure political power and build an index for it. We demonstrated how the political power of white and black people in the US has changed over the last few years. We provided enough evidence that political power does impact racial disparities in police stops. Our work may inspire that minorities in the US should endeavour to become more represented in politics and thus gain more political power for their own interests.
 
 
 ---
