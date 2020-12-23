@@ -11,7 +11,7 @@ subtitle: Does Political Power Impact Racial Disparities in Police Stops?
 **No one likes being pulled over, but**
 # Did you know...
 
-It has been shown that African American in the US has been suffering racial disparities in traffic police stops across the country. The Stanford Open Policing Project has demonstrated that black and Hispanic drivers are stopped by police at a higher rate without more evidence, and the bar for searching black and Hispanic drivers is lower than that for searching white drivers, suggestive of racial profiling. 
+It has been shown that African American and Hispanic American in the US has been suffering racial disparities in traffic police stops across the country. The Stanford Open Policing Project has demonstrated that black and Hispanic drivers are stopped by police at a higher rate without more evidence, and the bar for searching black and Hispanic drivers is lower than that for searching white drivers, suggestive of racial profiling. 
 
 (For more details about this work, check out [their project website](https://openpolicing.stanford.edu/))
 
