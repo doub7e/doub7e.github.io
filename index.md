@@ -67,22 +67,51 @@ margin: auto;
 }
 </style>
 
-|       | bw_search | bw_arrest | bw_citation | bw_warning |
-| :---: | :-------: | :-------: | :---------: | :--------: |
-| count | 15.000000 | 15.000000 |  15.000000  | 15.000000  |
-| mean  | 2.116278  | 1.651394  |  0.957276   |  1.205424  |
-|  std  | 1.199010  | 1.005246  |  0.598655   |  0.658396  |
-|  min  | 0.335821  | 0.130000  |  0.121225   |  0.085131  |
-|  25%  | 1.308114  | 0.990718  |  0.589332   |  0.723890  |
-|  50%  | 2.017767  | 1.676768  |  0.922837   |  1.195433  |
-|  75%  | 3.092054  | 2.110031  |  1.144677   |  1.543879  |
-|  max  | 4.367405  | 3.833067  |  2.341822   |  2.515497  |
+|       | Search Rate | Arrest Rate | Citation Rate | Warning Rate |
+| :---: | :---------: | :---------: | :-----------: | :----------: |
+| count |  15.000000  |  15.000000  |   15.000000   |  15.000000   |
+| mean  |  2.116278   |  1.651394   |   0.957276    |   1.205424   |
+|  std  |  1.199010   |  1.005246   |   0.598655    |   0.658396   |
+|  min  |  0.335821   |  0.130000   |   0.121225    |   0.085131   |
+|  25%  |  1.308114   |  0.990718   |   0.589332    |   0.723890   |
+|  50%  |  2.017767   |  1.676768   |   0.922837    |   1.195433   |
+|  75%  |  3.092054   |  2.110031   |   1.144677    |   1.543879   |
+|  max  |  4.367405   |  3.833067   |   2.341822    |   2.515497   |
 
 
 
 For each outcome, we calculate the black-white ratio, As a reminder, if the calculated value is 1, then black and white drivers are seemed to be equally treated. Values below 1 indicate that white drivers are more possible to commit this outcome than black drivers, while values above 1 indicate that black drivers are more possible to commit this outcome than white drivers. Table 1 presents the summary statistics for these variables. 
 
 Looking at the mean values, searches are 119 percent more common for black drivers than whites. Compared to the search rate, warnings and citations are almost equally likely. And arrests are 65 percent more likely among black drivers, on average.  The minima, 25th percentile value, median, 75th percentile value, and the maxima show the full range of each variable across the years. Searches have a maximum of more than 4 times likely among black drivers. While arrests have a maximum of about 3.8 times likely among black drivers. With a good range of variability for each variable, we test if our theory about political power can explain this variance.
+
+<div>
+<center>Table: The regression parameters of four outcomes</center>
+</div>
+
+<style>
+table {
+margin: auto;
+}
+</style>
+
+|                |                 | Search Rate | Arrest Rate | Citation Rate | Warning Rate |
+| :------------- | --------------- | :---------: | :---------: | :-----------: | :----------: |
+| ARIZONA        | Political Power |   568.66    |   -487.29   |    292.11     |    201.78    |
+| …              | Intercept       |   650.98    |   -521.03   |    334.75     |    231.90    |
+| MASSACHUSETTS  | Political Power |    76.29    |    20.89    |     25.78     |    22.96     |
+| …              | Intercept       |   108.14    |    43.77    |     42.38     |    37.44     |
+| MONTANA        | Political Power |    13.37    |   -21.55    |     0.38      |    17.45     |
+| …              | Intercept       |    20.80    |   -24.84    |     1.78      |    22.18     |
+| NORTH CAROLINA | Political Power |    77.91    |    76.35    |     14.45     |    27.11     |
+| …              | Intercept       |   167.50    |   133.47    |     61.83     |    79.60     |
+| RHODE ISLAND   | Political Power |   281.94    |   264.54    |    -15.60     |    199.95    |
+| …              | Intercept       |   351.87    |   329.44    |     4.31      |    235.03    |
+| VERMONT        | Political Power |   -202.54   |    70.66    |    -43.24     |    -20.92    |
+| …              | Intercept       |   -235.34   |    88.15    |    -49.57     |    -23.31    |
+| WEST VIRGINIA  | Political Power |    34.57    |    76.79    |     34.10     |    -2.79     |
+| …              | Intercept       |    69.92    |   113.05    |     48.91     |     3.65     |
+
+We ﬁt four hierarchical linear models for each state, as seen in chart above. Our variables are used to predict trafﬁc stop outcomes: search rate, arrest rate, citation rate, and warning rate.  This table shows the parameters of the regressions predicting the black-white outcome rates. Following from our hypotheses, we expect that the coefﬁcients for our political power should push the predicted outcome to equality.
 
 ## Regression Analysis
 
