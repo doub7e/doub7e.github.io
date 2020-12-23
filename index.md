@@ -19,7 +19,7 @@ What their work has also informed us (by studying the legalization of recreation
 
 How can such policy interventions be made? We notice that ***political power*** is an important factor in it. Intuitively, with political power, disparities are less likely to grow because it would lead to attention, complaints, concern, and political actions to reduce them. Without political power, disparities can continue with impunity and with little relative attention.
 
-In this project, we aim to analyze the political power of black people in ... states and try to figure out whether the political power has an impact on racial disparities in terms of police stops.
+In this project, we aim to analyze the political power of black people in several states about which we can find enough data and try to figure out whether the political power has an impact on racial disparities in terms of police stops.
 
 ---
 
