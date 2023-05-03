@@ -55,18 +55,15 @@ function sampleImages(){
     // Method order is randomized
     draping_modes = shuffleArray(["EvalA-a", "EvalA-b"])
     rand_id = getRandomInt(num_renderings)
-    renderding_id_0 = filenames[rand_id]
-    renderding_id_1 = rand_id
+    rendering_id_0 = filenames[rand_id]
+    rendering_id_1 = rand_id
   } else if(comparison == 1) {
     num_renderings = 1000
     draping_modes = shuffleArray(["EvalA-b", "EvalA-a"])
     rand_id = getRandomInt(num_renderings)
-    renderding_id_1 = filenames[rand_id]
-    renderding_id_0 = rand_id
+    rendering_id_1 = filenames[rand_id]
+    rendering_id_0 = rand_id
   }
-
-  // Body/garment combination is randomized
-  rendering_id = getRandomInt(num_renderings)
 
   // Display corresponding images
 //   base_url = "https://raw.githubusercontent.com/drapingevaluation/drapingevaluation.github.io/assets2.2/"
