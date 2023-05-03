@@ -5,9 +5,9 @@ function clickImage(imgId){
   img1_src = getCleanerPath(img1.src)
 
   if(imgId == "0") {
-    methodPreference = img0_src[0]
+    methodPreference = img0_src[6]
   } else if(imgId == "1") {
-    methodPreference = img1_src[0]
+    methodPreference = img1_src[6]
   } else {
     methodPreference = "None"
   }
