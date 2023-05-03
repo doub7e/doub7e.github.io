@@ -57,7 +57,7 @@ const id2filenames = ["64309", "64048", "50324", "32212", "23880", "05311", "635
 
 function getFilename(id, mode) {
   if(mode == 'EvalA-a'){
-    return filenames[id] + ".png"
+    return id2filenames[id] + ".png"
   } else {
     return "seed" + formatWithLeadingZeros(id, 4) + ".png"
   }
@@ -77,7 +77,6 @@ function sampleImages(){
   rendering_id = getRandomInt(num_renderings)
 
   // Display corresponding images
-//   base_url = "https://raw.githubusercontent.com/drapingevaluation/drapingevaluation.github.io/assets2.2/"
   base_url = "https://raw.githubusercontent.com/doub7e/doub7e.github.io/main/images/"
   img0.src = base_url + draping_modes[0] + "/" + getFilename(rendering_id, draping_modes[0])
   img1.src = base_url + draping_modes[1] + "/" + getFilename(rendering_id, draping_modes[1])
