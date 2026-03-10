@@ -11,22 +11,22 @@
   },
   "education": [
     {
-      "institution": "EPFL (Swiss Federal Institute of Technology of Lausanne)",
+      "institution": "EPFL (Swiss Federal Institute of Technology in Lausanne)",
       "location": "Lausanne, Switzerland",
       "url": "https://www.epfl.ch/",
       "area": "Machine Learning",
       "studyType": "Ph.D.",
       "startDate": "2022-09-01",
-      "endDate": "Present"
+      "endDate": "2027"
     },
     {
-      "institution": "EPFL (Swiss Federal Institute of Technology of Lausanne)",
+      "institution": "EPFL (Swiss Federal Institute of Technology in Lausanne)",
       "location": "Lausanne, Switzerland",
       "url": "https://www.epfl.ch/",
       "area": "Data Science",
       "studyType": "Master",
       "startDate": "2020-09-01",
-      "endDate": "2022-7-15"
+      "endDate": "2022-07-15"
     },
     {
       "institution": "University of California, San Diego",
@@ -34,7 +34,7 @@
       "url": "https://www.ucsd.edu/",
       "area": "Computer Science",
       "studyType": "Master",
-      "note": "(Quit due to visa issues and COVID)",
+      "note": "(Quit due to visa issues and COVID-19.)",
       "startDate": "2019-09-01",
       "endDate": "2020-06-30"
     },
@@ -55,53 +55,61 @@
       "position": "Research Intern",
       "startDate": "2021-07",
       "endDate": "2021-09",
-      "summary": "Developed and evaluated a machine learning model that detects anomalous Linux sessions in the cloud servers."
+      "summary": "Developed a time series model that detects anomalous Linux sessions in the cloud servers."
     },
     {
-      "name": "Didi Chuxing (China's largest taxi-hailing platform)",
+      "name": "DiDi (China's largest taxi-hailing platform)",
       "location": "Beijing, China",
       "position": "Algorithm Engineering Intern",
       "startDate": "2018-10",
       "endDate": "2019-02",
-      "summary": "Developed an algorithm for learning road segment weights from historical ride data, improving route planning quality for ride-hailing services."
+      "summary": "Developed an algorithm for learning road segment weights from historical ride data, significantly improving route planning quality for ride-hailing services in production environment."
     }
   ],
   "projects": [
     {
-      "name": "Efficient Training Data Attribution for Large Language Models",
+      "name": "Dense Credit Assignment for RL via Token-Level Data Attribution",
       "location": "EPFL",
-      "summary": "Training Data Attribution faces severe computational challenges for modern-sized LLMs. We improved conventional influence functions by exploiting the low-rank property of the gradient to make them more efficient and scalable.",
+      "summary": "Proposed a novel data attribution framework for reinforcement learning to estimate the marginal contribution of individual tokens to total rewards for GRPO/DAPO-style algorithms. Achieved fine-grained dense credit assignment, effectively mitigating the reward sparsity limitations in reasoning and agentic RL training.",
       "note": "Ongoing\nresearch",
-      "startDate": "2025-08",
+      "startDate": "2026-01",
       "endDate": "Present"
     },
     {
-      "name": "Improving Waste Detection and Sorting on Conveyor Belt",
-      "location": "WasteFlow,\nSwitzerland",
-      "summary": "Supervising two projects: (1) YOLO uncertainty estimation and confidence recalibration and (2) real‑time object brand recognition on conveyor belts.",
-      "startDate": "2025-09",
-      "endDate": "Present"
+      "name": "Scalable Training Data Attribution for Large Language Models",
+      "location": "EPFL",
+      "summary": "Developed a novel, highly scalable method for training data attribution in large-scale models by exploiting the low-rank properties of gradients, cutting storage cost and query latency 20x. Enabled, for the first time, the ability to efficiently trace the output of a 70-billion-parameter LLM back to individual examples in their SFT training data.",
+      "note": "Under review\nfor ICML 2026",
+      "startDate": "2025-08",
+      "endDate": "2026-01"
     },
     {
       "name": "Learning to Weight Parameters for Training Data Attribution",
       "location": "EPFL",
-      "summary": "Identified the heterogeneity of attribution strengths across parameters; proposed a method that learns to re-weight layers to amplify the true signal, boosting accuracy and enabling fine-grained (e.g., subject vs. style) attribution.",
-      "note": "Submitted to ICLR 2026",
+      "summary": "Identified the heterogeneity of attribution signal across parameters/layers in diffusion models and LLMs. Proposed a method to re-weight layers, boosting attribution accuracy and enabling interpretable attribution.",
+      "note": "ICLR 2026",
       "startDate": "2025-02",
       "endDate": "2025-09"
     },
     {
-      "name": "Enhancing Compositional Text-to-Image Generation with Reliable Random Seeds",
+      "name": "LLM Development from Scratch",
       "location": "EPFL",
-      "summary": "Identified the significant role of initial noise in text-to-image inconsistencies; proposed a method to mine reliable random seeds to improve text-to-image generation.",
+      "summary": "Collaborative project with 25 PhD students to build a large language model from scratch. Engineered the pre-training pipeline, including environment setup and investigating optimal data mixing recipes for the training corpus. Implemented and validated the evaluation suite by reproducing the SmolLM2 benchmark to establish a robust performance baseline.",
+      "startDate": "2025-03",
+      "endDate": "2025-07"
+    },
+    {
+      "name": "Enhancing Text-to-Image Generation with Reliable Random Seeds",
+      "location": "EPFL",
+      "summary": "Identified the significant role of initial noise in text-to-image inconsistencies for diffusion models. Proposed a method that identifies reliable random seeds to improve text-to-image generation, leveraging reliable seeds to synthesize high-quality data for fine-tuning diffusion models.",
       "note": "ICLR 2025\nSpotlight",
       "startDate": "2024-01",
       "endDate": "2024-10"
     },
     {
-      "name": "Controlling the Fidelity and Diversity of Deep Generative Models via Pseudo Density",
+      "name": "Controlling the Fidelity and Diversity of Deep Generative Models",
       "location": "EPFL",
-      "summary": "Proposed an approach to bias deep generative models, such as GANs and diffusion models, towards generating data with either enhanced fidelity or increased diversity.",
+      "summary": "Proposed an approach to bias generative models towards generating data with either enhanced fidelity or increased diversity. Enabled model training with data of better fidelity or diversity.",
       "note": "TMLR 2024\nPoster at ICLR 2025",
       "startDate": "2023-02",
       "endDate": "2024-03"
@@ -109,13 +117,20 @@
     {
       "name": "Interlock-Free Multi-Aspect Rationalization for Text Classification",
       "location": "EPFL",
-      "summary": "Proposed a multi-stage training method incorporating an additional self-supervised contrastive loss that helps to alleviate the interlocking issue and extract more semantically diverse rationales.",
+      "summary": "Proposed a multi-stage training method to alleviate the interlocking issue in training interpretable models.",
       "note": "Semester\nproject",
       "startDate": "2021-09",
       "endDate": "2022-02"
     }
   ],
   "teaching": [
+    {
+      "name": "Improving Waste Detection and Sorting",
+      "location": "WasteFlow",
+      "position": "Project Supervisor",
+      "startDate": "2025-09",
+      "endDate": "2026-01"
+    },
     {
       "name": "CS-233: Introduction to Machine Learning",
       "location": "EPFL",
@@ -194,7 +209,9 @@
       "name": "Programming",
       "keywords": [
         "Python",
-        "C++"
+        "C++",
+        "CUDA",
+        "Coding competition"
       ]
     },
     {
@@ -204,6 +221,7 @@
         "Docker",
         "Git",
         "Linux",
+        "PySpark",
         "Cursor",
         "Claude Code"
       ]
@@ -211,14 +229,20 @@
   ],
   "publications": [
     {
+      "name": "Low-Rank Influence Functions for Scalable Training Data Attribution",
+      "publisher": "arXiv (submitted to ICML 2026)",
+      "releaseDate": "2026-01",
+      "url": "https://arxiv.org/pdf/2601.21929"
+    },
+    {
       "name": "Learning to Weight Parameters for Data Attribution",
-      "publisher": "arXiv (submitted to ICLR 2026)",
+      "publisher": "International Conference on Learning Representations (ICLR 2026)",
       "releaseDate": "2025-06",
       "url": "https://arxiv.org/pdf/2506.05647"
     },
     {
       "name": "Enhancing Compositional Text-to-Image Generation with Reliable Random Seeds",
-      "publisher": "International Conference on Learning Representations",
+      "publisher": "International Conference on Learning Representations (ICLR 2025 Spotlight)",
       "releaseDate": "2024-10",
       "url": "https://openreview.net/pdf?id=5BSlakturs"
     },
