@@ -19,21 +19,21 @@
                 </td>
               </tr>
               {% if content.location %}
-              <tr>
-                <td>
-                  <p class="location">
-                    <i class="fa-solid fa-location-dot iconlocation"></i>
-                    {{ content.location | newline_to_br }}
-                  </p>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <p class="location">
+                      <i class="fa-solid fa-location-dot iconlocation"></i>
+                      {{ content.location | newline_to_br }}
+                    </p>
+                  </td>
+                </tr>
               {% endif %}
               {% if content.note %}
-              <tr>
-                <td>
-                  <div style="font-size: 0.9rem; white-space: pre-line">{{ content.note | newline_to_br }}</div>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <div style="font-size: 0.9rem; white-space: pre-line">{{ content.note | newline_to_br }}</div>
+                  </td>
+                </tr>
               {% endif %}
             </tbody>
           </table>

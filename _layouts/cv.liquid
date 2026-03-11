@@ -90,12 +90,18 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">
               {% case data[0] %}
-                {% when 'basics' %}General Information
-                {% when 'work' %}Work Experience
-                {% when 'teaching' %}Teaching Experience
-                {% when 'awards' %}Honors & Awards
-                {% when 'research' %}Research Experience
-                {% else %}{{ data[0] | capitalize }}
+                {% when 'basics' -%}
+                  General Information
+                {% when 'work' -%}
+                  Work Experience
+                {% when 'teaching' -%}
+                  Teaching Experience
+                {% when 'awards' -%}
+                  Honors & Awards
+                {% when 'research' -%}
+                  Research Experience
+                {% else -%}
+                  {{- data[0] | capitalize }}
               {% endcase %}
             </h3>
             <div>

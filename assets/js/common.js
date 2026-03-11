@@ -62,10 +62,10 @@ $(document).ready(function () {
   // trigger popovers
   $('[data-toggle="popover"]').each(function () {
     var $el = $(this);
-    var trigger = $el.data('trigger') || 'hover';
-    var placement = $el.data('placement') || $el.data('bsPlacement') || 'auto';
-    var container = $el.data('container') || 'body';
-    var html = !!$el.data('html');
+    var trigger = $el.data("trigger") || "hover";
+    var placement = $el.data("placement") || $el.data("bsPlacement") || "auto";
+    var container = $el.data("container") || "body";
+    var html = !!$el.data("html");
     $el.popover({ trigger: trigger, placement: placement, container: container, html: html });
   });
 });

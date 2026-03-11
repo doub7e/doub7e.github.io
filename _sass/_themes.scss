@@ -44,7 +44,9 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
-  #light-toggle-system { display: none; }
+  #light-toggle-system {
+    display: none;
+  }
 
   #light-toggle-dark {
     display: none;
@@ -120,8 +122,11 @@ html[data-theme="dark"] {
   }
 }
 
-html[data-theme-setting="dark"], html[data-theme-setting="system"] {
-  #light-toggle-system { display: none; }
+html[data-theme-setting="dark"],
+html[data-theme-setting="system"] {
+  #light-toggle-system {
+    display: none;
+  }
 
   #light-toggle-dark {
     padding-left: 10px;
@@ -140,7 +145,9 @@ html[data-theme-setting="dark"], html[data-theme-setting="system"] {
 }
 
 html[data-theme-setting="light"] {
-  #light-toggle-system { display: none; }
+  #light-toggle-system {
+    display: none;
+  }
 
   #light-toggle-dark {
     display: none;
