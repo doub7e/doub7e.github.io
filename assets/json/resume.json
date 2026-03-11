@@ -207,24 +207,11 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [
-        "Python",
-        "C++",
-        "CUDA",
-        "Coding competition"
-      ]
+      "keywords": ["Python", "C++", "CUDA", "Coding competition"]
     },
     {
       "name": "Frameworks & Tools",
-      "keywords": [
-        "PyTorch",
-        "Docker",
-        "Git",
-        "Linux",
-        "PySpark",
-        "Cursor",
-        "Claude Code"
-      ]
+      "keywords": ["PyTorch", "Docker", "Git", "Linux", "PySpark", "Cursor", "Claude Code"]
     }
   ],
   "publications": [
