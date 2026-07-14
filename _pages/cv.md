@@ -4,8 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 3
-cv_pdf: Shuangqi_Li_202602.pdf # you can also use external links here
-description:
+description: Last updated July 2026.
 toc:
   sidebar: left
 ---

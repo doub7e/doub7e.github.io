@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Shuangqi LI (李 双琪)",
-    "label": "",
+    "label": "Ph.D. Candidate in Machine Learning",
     "image": "",
     "email": "shuangqi.li@epfl.ch",
     "phone": "",
-    "url": "",
-    "summary": "",
+    "url": "https://lishuangqi.com",
+    "summary": "I study how training data shapes model behavior, with a focus on scalable training data attribution, data curation and mixture design, and data-aware methods for LLM pre-training and post-training.",
     "languages": ["Chinese (Native), English (Fluent), French (Basic)"]
   },
   "education": [
@@ -50,12 +50,21 @@
   ],
   "work": [
     {
+      "name": "High-Flyer | IQuestLab",
+      "location": "Beijing, China",
+      "url": "https://iquestlab.github.io/",
+      "position": "Pre-training Algorithm Intern",
+      "startDate": "2026-05",
+      "endDate": "Present",
+      "summary": "Working on engineering and algorithmic research for next-generation LLM pre-training, including gradient-based influence data selection, SAE-guided diversity optimization, scaling laws, and low-quality data detection."
+    },
+    {
       "name": "Oracle Labs",
       "location": "Zurich, Switzerland",
       "position": "Research Intern",
       "startDate": "2021-07",
       "endDate": "2021-09",
-      "summary": "Developed a time series model that detects anomalous Linux sessions in the cloud servers."
+      "summary": "Developed a time series model that detects anomalous Linux sessions in cloud servers and used PySpark to process large-scale cloud data."
     },
     {
       "name": "DiDi (China's largest taxi-hailing platform)",
@@ -68,18 +77,20 @@
   ],
   "projects": [
     {
-      "name": "Dense Credit Assignment for RL via Token-Level Data Attribution",
+      "name": "PriFT: Prior-Support Guided Supervised Fine-Tuning",
       "location": "EPFL",
-      "summary": "Proposed a novel data attribution framework for reinforcement learning to estimate the marginal contribution of individual tokens to total rewards for GRPO/DAPO-style algorithms. Achieved fine-grained dense credit assignment, effectively mitigating the reward sparsity limitations in reasoning and agentic RL training.",
-      "note": "Ongoing\nresearch",
-      "startDate": "2026-01",
-      "endDate": "Present"
+      "url": "https://arxiv.org/abs/2606.09396",
+      "summary": "Proposed a token-reweighting framework that uses support from a frozen pre-trained model to avoid the self-reinforcing dynamics of online reweighting. PriFT improves SFT across mathematical reasoning, code generation, and medical question answering while preserving exploration and providing a stronger initialization for subsequent RL.",
+      "note": "Under review\nat NeurIPS 2026",
+      "startDate": "2026-06",
+      "endDate": "2026-06"
     },
     {
-      "name": "Scalable Training Data Attribution for Large Language Models",
+      "name": "LoRIF: Scalable Training Data Attribution for Large Language Models",
       "location": "EPFL",
+      "url": "https://arxiv.org/abs/2601.21929",
       "summary": "Developed a novel, highly scalable method for training data attribution in large-scale models by exploiting the low-rank properties of gradients, cutting storage cost and query latency 20x. Enabled, for the first time, the ability to efficiently trace the output of a 70-billion-parameter LLM back to individual examples in their SFT training data.",
-      "note": "Under review\nfor ICML 2026",
+      "note": "Under review\nat NeurIPS 2026",
       "startDate": "2025-08",
       "endDate": "2026-01"
     },
@@ -211,18 +222,24 @@
     },
     {
       "name": "Frameworks & Tools",
-      "keywords": ["PyTorch", "Docker", "Git", "Linux", "PySpark", "Cursor", "Claude Code"]
+      "keywords": ["PyTorch", "Docker", "Git", "Linux", "PySpark", "Cursor", "Claude Code", "Codex"]
     }
   ],
   "publications": [
     {
-      "name": "Low-Rank Influence Functions for Scalable Training Data Attribution",
-      "publisher": "arXiv (submitted to ICML 2026)",
+      "name": "PriFT: Prior-Support Guided Supervised Fine-Tuning",
+      "publisher": "arXiv (under review at NeurIPS 2026)",
+      "releaseDate": "2026-06",
+      "url": "https://arxiv.org/pdf/2606.09396"
+    },
+    {
+      "name": "LoRIF: Low-Rank Influence Functions for Scalable Training Data Attribution",
+      "publisher": "arXiv (under review at NeurIPS 2026)",
       "releaseDate": "2026-01",
       "url": "https://arxiv.org/pdf/2601.21929"
     },
     {
-      "name": "Learning to Weight Parameters for Data Attribution",
+      "name": "Learning to Weight Parameters for Training Data Attribution",
       "publisher": "International Conference on Learning Representations (ICLR 2026)",
       "releaseDate": "2025-06",
       "url": "https://arxiv.org/pdf/2506.05647"

@@ -1,16 +1,36 @@
 ---
 ---
 
+@article{wang2026prift,
+  title={PriFT: Prior-Support Guided Supervised Fine-Tuning},
+  author={Wang*, Ke and Li*, Shuangqi and Salzmann, Mathieu and Frossard, Pascal},
+  tldr={A frozen pre-trained model provides a cleaner token-level training signal than the evolving online model. PriFT uses this prior support to improve supervised fine-tuning while preserving diversity and providing a stronger initialization for subsequent reinforcement learning.},
+  abstract={PriFT is a supervised fine-tuning framework that derives token weights from a frozen pre-trained reference. Decoupling token-weight estimation from the fine-tuning trajectory avoids the self-reinforcing dynamics of online reweighting. Across mathematical reasoning, code generation, and medical question answering, PriFT improves over strong SFT baselines and yields better initialization for subsequent reinforcement learning.},
+  journal={arXiv preprint arXiv:2606.09396},
+  note={Under review at NeurIPS 2026},
+  arxiv={2606.09396},
+  pdf={https://arxiv.org/pdf/2606.09396},
+  code={https://github.com/wang-kee/PriFT},
+  year={2026},
+  selected={true},
+  abbr={arXiv},
+  annotation={* Equal contribution.},
+  preview={prift.png},
+}
+
 @article{li2026lowrank,
-  title={Low-Rank Influence Functions for Scalable Training Data Attribution},
+  title={LoRIF: Low-Rank Influence Functions for Scalable Training Data Attribution},
   author={Li, Shuangqi and Le, Hieu and Xu, Jingyi and Salzmann, Mathieu},
-  tldr={We exploit the low-rank properties of gradients to make influence functions scalable, cutting storage cost and query latency 20x, enabling tracing a 70B-parameter LLM's output back to individual training examples.},
-  abstract={We develop a novel, highly scalable method for training data attribution in large-scale models by exploiting the low-rank properties of gradients, cutting storage cost and query latency 20x. We enable, for the first time, the ability to efficiently trace the output of a 70-billion-parameter LLM back to individual examples in their SFT training data.},
+  tldr={LoRIF exploits low-rank structure in gradients and curvature to cut attribution storage and query latency by up to 20x, making influence-function-based attribution practical for models up to 70B parameters and datasets with millions of examples.},
+  abstract={LoRIF addresses the storage, input-output, and inverse-Hessian bottlenecks of gradient-based training data attribution. It stores low-rank factors of projected per-example gradients and approximates curvature in a truncated singular-vector subspace. Across models from 0.1B to 70B parameters, LoRIF reduces storage and query latency by up to 20x while matching or improving attribution quality.},
   journal={arXiv preprint arXiv:2601.21929},
+  note={Under review at NeurIPS 2026},
+  arxiv={2601.21929},
   pdf={https://arxiv.org/pdf/2601.21929},
   year={2026},
   selected={true},
-  preview="learning-to-weight-2.jpg",
+  abbr={arXiv},
+  preview={lorif.png},
 }
 
 @article{li2025learning,
@@ -18,7 +38,7 @@
   author={Li, Shuangqi and Le, Hieu and Xu, Jingyi and Salzmann, Mathieu},
   tldr={Attribution signals are noisy. Our method learns to re-weight layers to amplify the true signal, boosting accuracy and enabling fine-grained (e.g., subject vs. style) attribution.},
   abstract={We study data attribution in generative models, aiming to identify which training examples most influence a given output. Existing methods achieve this by tracing gradients back to training data. However, they typically treat all network parameters uniformly, ignoring the fact that different layers encode different types of information and may thus draw information differently from the training set. We propose a method that models this by learning parameter importance weights tailored for attribution, without requiring labeled data. This allows the attribution process to adapt to the structure of the model, capturing which training examples contribute to specific semantic aspects of an output, such as subject, style, or background. Our method improves attribution accuracy across diffusion models and enables fine-grained insights into how outputs borrow from training data.},
-  booktitle={The 13th International Conference on Learning Representations},
+  booktitle={The 14th International Conference on Learning Representations},
   pdf={https://arxiv.org/pdf/2506.05647},
   year={2026},
   selected={true},
@@ -63,7 +83,6 @@
   pdf={https://arxiv.org/pdf/2205.06756},
   year={2022},
   preview="interlock-free.jpg",
-  selected={true},
+  selected={false},
 }
-
 
