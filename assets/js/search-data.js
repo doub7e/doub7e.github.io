@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "Last updated July 2026.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -108,6 +108,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%73%68%75%61%6E%67%71%69.%6C%69@%65%70%66%6C.%63%68", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/doub7e", "_blank");
         },
       },{
         id: 'social-linkedin',
