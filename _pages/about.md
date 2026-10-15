@@ -29,6 +29,6 @@ Hi! I am Shuangqi Li, a Ph.D. candidate at EPFL advised by [Mathieu Salzmann](ht
 
 Since May 2026, I have also been a **pre-training algorithm intern at [IQuestLab](https://iquestlab.github.io/)**, where I work on gradient-based data selection, SAE-guided diversity optimization, scaling laws, and data quality for next-generation language models.
 
-My recent work includes [LoRIF](https://arxiv.org/abs/2601.21929), which makes influence-function-based attribution practical for models up to 70B parameters, and [PriFT](https://arxiv.org/abs/2606.09396), which uses support from a frozen pre-trained model to improve supervised fine-tuning and subsequent RL. I am especially interested in methods that are both scientifically interpretable and practical at modern training scale.
+My recent work includes [LoRIF](https://arxiv.org/abs/2601.21929), which makes influence-function-based attribution practical for models up to 70B parameters, and [PriFT](https://arxiv.org/abs/2606.09396), which uses support from a frozen pre-trained model to improve supervised fine-tuning and subsequent RL. Both papers were accepted at **NeurIPS 2026**.
 
-I enjoy research at the boundary of algorithms and systems, and work primarily with Python, PyTorch, CUDA, PySpark, and distributed training and data pipelines. If our interests overlap, feel free to [get in touch](mailto:shuangqi.li@epfl.ch).
+I am also interested in **self-evolving training data**: using model feedback to identify capability gaps and guide the selection, generation, and refinement of data for further training. If our interests overlap, feel free to [get in touch](mailto:shuangqi.li@epfl.ch).

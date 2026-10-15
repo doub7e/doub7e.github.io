@@ -1,35 +1,33 @@
 ---
 ---
 
-@article{wang2026prift,
+@inproceedings{wang2026prift,
   title={PriFT: Prior-Support Guided Supervised Fine-Tuning},
   author={Wang*, Ke and Li*, Shuangqi and Salzmann, Mathieu and Frossard, Pascal},
   tldr={A frozen pre-trained model provides a cleaner token-level training signal than the evolving online model. PriFT uses this prior support to improve supervised fine-tuning while preserving diversity and providing a stronger initialization for subsequent reinforcement learning.},
   abstract={PriFT is a supervised fine-tuning framework that derives token weights from a frozen pre-trained reference. Decoupling token-weight estimation from the fine-tuning trajectory avoids the self-reinforcing dynamics of online reweighting. Across mathematical reasoning, code generation, and medical question answering, PriFT improves over strong SFT baselines and yields better initialization for subsequent reinforcement learning.},
-  journal={arXiv preprint arXiv:2606.09396},
-  note={Under review at NeurIPS 2026},
+  booktitle={Advances in Neural Information Processing Systems},
   arxiv={2606.09396},
   pdf={https://arxiv.org/pdf/2606.09396},
   code={https://github.com/wang-kee/PriFT},
   year={2026},
   selected={true},
-  abbr={arXiv},
+  abbr={NeurIPS},
   annotation={* Equal contribution.},
   preview={prift.png},
 }
 
-@article{li2026lowrank,
+@inproceedings{li2026lowrank,
   title={LoRIF: Low-Rank Influence Functions for Scalable Training Data Attribution},
   author={Li, Shuangqi and Le, Hieu and Xu, Jingyi and Salzmann, Mathieu},
   tldr={LoRIF exploits low-rank structure in gradients and curvature to cut attribution storage and query latency by up to 20x, making influence-function-based attribution practical for models up to 70B parameters and datasets with millions of examples.},
   abstract={LoRIF addresses the storage, input-output, and inverse-Hessian bottlenecks of gradient-based training data attribution. It stores low-rank factors of projected per-example gradients and approximates curvature in a truncated singular-vector subspace. Across models from 0.1B to 70B parameters, LoRIF reduces storage and query latency by up to 20x while matching or improving attribution quality.},
-  journal={arXiv preprint arXiv:2601.21929},
-  note={Under review at NeurIPS 2026},
+  booktitle={Advances in Neural Information Processing Systems},
   arxiv={2601.21929},
   pdf={https://arxiv.org/pdf/2601.21929},
   year={2026},
   selected={true},
-  abbr={arXiv},
+  abbr={NeurIPS},
   preview={lorif.png},
 }
 

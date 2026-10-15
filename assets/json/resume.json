@@ -6,7 +6,7 @@
     "email": "shuangqi.li@epfl.ch",
     "phone": "",
     "url": "https://lishuangqi.com",
-    "summary": "I study how training data shapes model behavior, with a focus on scalable training data attribution, data curation and mixture design, and data-aware methods for LLM pre-training and post-training.",
+    "summary": "I study how training data shapes model behavior, with a focus on scalable training data attribution, data curation and mixture design, and data-aware methods for LLM pre-training and post-training. My recent interests also include self-evolving training data guided by model feedback.",
     "languages": ["Chinese (Native), English (Fluent), French (Basic)"]
   },
   "education": [
@@ -81,7 +81,7 @@
       "location": "EPFL",
       "url": "https://arxiv.org/abs/2606.09396",
       "summary": "Proposed a token-reweighting framework that uses support from a frozen pre-trained model to avoid the self-reinforcing dynamics of online reweighting. PriFT improves SFT across mathematical reasoning, code generation, and medical question answering while preserving exploration and providing a stronger initialization for subsequent RL.",
-      "note": "Under review\nat NeurIPS 2026",
+      "note": "NeurIPS 2026",
       "startDate": "2026-06",
       "endDate": "2026-06"
     },
@@ -90,7 +90,7 @@
       "location": "EPFL",
       "url": "https://arxiv.org/abs/2601.21929",
       "summary": "Developed a novel, highly scalable method for training data attribution in large-scale models by exploiting the low-rank properties of gradients, cutting storage cost and query latency 20x. Enabled, for the first time, the ability to efficiently trace the output of a 70-billion-parameter LLM back to individual examples in their SFT training data.",
-      "note": "Under review\nat NeurIPS 2026",
+      "note": "NeurIPS 2026",
       "startDate": "2025-08",
       "endDate": "2026-01"
     },
@@ -228,13 +228,13 @@
   "publications": [
     {
       "name": "PriFT: Prior-Support Guided Supervised Fine-Tuning",
-      "publisher": "arXiv (under review at NeurIPS 2026)",
+      "publisher": "Advances in Neural Information Processing Systems (NeurIPS 2026)",
       "releaseDate": "2026-06",
       "url": "https://arxiv.org/pdf/2606.09396"
     },
     {
       "name": "LoRIF: Low-Rank Influence Functions for Scalable Training Data Attribution",
-      "publisher": "arXiv (under review at NeurIPS 2026)",
+      "publisher": "Advances in Neural Information Processing Systems (NeurIPS 2026)",
       "releaseDate": "2026-01",
       "url": "https://arxiv.org/pdf/2601.21929"
     },
