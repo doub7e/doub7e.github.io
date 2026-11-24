@@ -29,6 +29,10 @@ html[data-theme="dark"] .home-hero {
   margin-bottom: 0;
 }
 
+.home-hero + article > .profile {
+  margin-top: -1.5rem;
+}
+
 .home-ambient {
   position: absolute;
   z-index: -1;
@@ -130,6 +134,10 @@ html[data-theme="dark"] .home-hero {
 
   .home-effects-toggle {
     margin-top: 0.15rem;
+  }
+
+  .home-hero + article > .profile {
+    margin: 0;
   }
 
   .home-ambient__contours {
