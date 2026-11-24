@@ -8,12 +8,12 @@ middle_name:
 last_name: LI
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Shuangqi Li is a machine learning Ph.D. candidate at EPFL working on training data attribution,
-  data curation, and LLM pre-training and post-training, with an interest in self-evolving training data.
+  Shuangqi Li is a Ph.D. candidate at EPFL working on agentic data, supervised fine-tuning,
+  and reinforcement learning for language model agents.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   with the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: machine learning, training data attribution, data curation, data selection, self-evolving training data, LLM pre-training, LLM post-training, supervised fine-tuning, generative models # add your own keywords or leave empty
+keywords: agentic data, language model agents, agentic SFT, agentic reinforcement learning, training data synthesis, credit assignment, training data attribution # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 7️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

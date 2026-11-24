@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate at EPFL · Training data attribution, curation, and LLM training
+subtitle: Ph.D. candidate at EPFL · Agentic data, SFT, and RL
 
 profile:
   align: right
@@ -25,10 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am Shuangqi Li, a Ph.D. candidate at EPFL advised by [Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/). I study **how training data shapes model behavior**, and how that understanding can lead to better data and objectives for model training. My work spans scalable training data attribution, data selection and mixture design, and data-aware methods for both LLM pre-training and post-training.
+I am a Ph.D. candidate at EPFL, advised by [Mathieu Salzmann](https://people.epfl.ch/mathieu.salzmann/). My current research focuses on **agentic data, supervised fine-tuning (SFT), and reinforcement learning (RL)** for language model agents.
 
-Since May 2026, I have also been a **pre-training algorithm intern at [IQuestLab](https://iquestlab.github.io/)**, where I work on gradient-based data selection, SAE-guided diversity optimization, scaling laws, and data quality for next-generation language models.
+I use model feedback to identify where agents struggle and decide which tasks and environments to create and which trajectories to learn from. I also study credit assignment in long-horizon agentic RL: which turns in a trajectory help the agent succeed?
 
-My recent work includes [LoRIF](https://arxiv.org/abs/2601.21929), which makes influence-function-based attribution practical for models up to 70B parameters, and [PriFT](https://arxiv.org/abs/2606.09396), which uses support from a frozen pre-trained model to improve supervised fine-tuning and subsequent RL. Both papers were accepted at **NeurIPS 2026**.
+My earlier work includes [LoRIF](https://arxiv.org/abs/2601.21929) on scalable training data attribution and [PriFT](https://arxiv.org/abs/2606.09396) on using a pretrained model to guide supervised fine-tuning. Both papers were accepted at **NeurIPS 2026**.
 
-I am also interested in **self-evolving training data**: using model feedback to identify capability gaps and guide the selection, generation, and refinement of data for further training. If our interests overlap, feel free to [get in touch](mailto:shuangqi.li@epfl.ch).
+Since May 2026, I have also been a research intern on the foundation model team at [IQuestLab](https://iquestlab.github.io/), where I work on training data selection and curation for LLM pretraining. If our interests overlap, feel free to [get in touch](mailto:shuangqi.li@epfl.ch).
