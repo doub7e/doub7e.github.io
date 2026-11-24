@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-home_effects: true
 subtitle: Ph.D. candidate at EPFL · Agentic data, SFT, and RL
 
 profile:

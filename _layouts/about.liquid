@@ -2,58 +2,19 @@
 layout: default
 ---
 <div class="post">
-  <header
-    class="post-header{% if page.home_effects %} home-hero{% endif %}"
-    {% if page.home_effects %}
-      data-effects="off"
-    {% endif %}
-  >
-    {% if page.home_effects %}
-      <div class="home-ambient" aria-hidden="true">
-        <div class="home-ambient__light"></div>
-        <svg class="home-ambient__contours" viewBox="0 0 690 250" fill="none" focusable="false">
-          <defs>
-            <linearGradient id="home-contour-ink" x1="55" y1="195" x2="675" y2="65" gradientUnits="userSpaceOnUse">
-              <stop offset="0" stop-color="var(--home-contour-cool)" stop-opacity="0"/>
-              <stop offset=".43" stop-color="var(--home-contour-cool)" stop-opacity=".36"/>
-              <stop offset=".72" stop-color="var(--home-contour-warm)" stop-opacity=".59"/>
-              <stop offset="1" stop-color="var(--home-contour-warm)" stop-opacity="0"/>
-            </linearGradient>
-          </defs>
-          <g stroke="url(#home-contour-ink)">
-          <path d="M 30 173 C 139 185, 197 154, 252 92 S 375 17, 516 84 S 633 142, 690 53"/>
-          <path d="M 39 182 C 142 193, 204 162, 261 99 S 382 23, 516 94 S 633 152, 690 61"/>
-          <path d="M 48 191 C 145 201, 211 170, 270 106 S 389 29, 516 104 S 633 162, 690 69"/>
-          <path d="M 57 200 C 148 209, 218 178, 279 113 S 396 35, 516 114 S 633 172, 690 77"/>
-          <path d="M 66 209 C 151 217, 225 186, 288 120 S 403 41, 516 124 S 633 182, 690 85"/>
-          <path d="M 75 218 C 154 225, 232 194, 297 127 S 410 47, 516 134 S 633 192, 690 93"/>
-          <path d="M 84 227 C 157 233, 239 202, 306 134 S 417 53, 516 144 S 633 202, 690 101"/>
-          <path d="M 93 236 C 160 241, 246 210, 315 141 S 424 59, 516 154 S 633 212, 690 109"/>
-          <path d="M 102 245 C 163 249, 253 218, 324 148 S 431 65, 516 164 S 633 222, 690 117"/>
-          </g>
-        </svg>
-      </div>
-    {% endif %}
-    <div>
-      <h1 class="post-title">
-        {% if site.title == 'blank' %}
-          <span class="font-weight-bold">
-            {{- site.first_name }}
-            {{ site.middle_name }}
-            {{ site.last_name -}}
-          </span>
-        {% else %}
-          {{ site.title }}
-        {% endif %}
-      </h1>
-      <p class="desc">{{ page.subtitle }}</p>
-    </div>
-    {% if page.home_effects %}
-      <button type="button" class="home-effects-toggle" role="switch" aria-checked="true" hidden>
-        Effects
-        <span class="home-effects-toggle__track" aria-hidden="true"></span>
-      </button>
-    {% endif %}
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">
+          {{- site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name -}}
+        </span>
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
   </header>
 
   <article>
