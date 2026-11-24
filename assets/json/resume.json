@@ -6,7 +6,7 @@
     "email": "shuangqi.li@epfl.ch",
     "phone": "",
     "url": "https://lishuangqi.com",
-    "summary": "I study how training data shapes model behavior, with a focus on scalable training data attribution, data curation and mixture design, and data-aware methods for LLM pre-training and post-training. My recent interests also include self-evolving training data guided by model feedback.",
+    "summary": "My current research focuses on agentic data, supervised fine-tuning (SFT), and reinforcement learning (RL) for language model agents. I use model feedback to guide the design of training tasks, environments, and trajectories, and study credit assignment in long-horizon agentic RL. My earlier work includes scalable training data attribution.",
     "languages": ["Chinese (Native), English (Fluent), French (Basic)"]
   },
   "education": [
@@ -50,13 +50,13 @@
   ],
   "work": [
     {
-      "name": "High-Flyer | IQuestLab",
+      "name": "Ubiquant | IQuestLab — Foundation Team",
       "location": "Beijing, China",
       "url": "https://iquestlab.github.io/",
-      "position": "Pre-training Algorithm Intern",
+      "position": "Research Intern — LLM Pretraining",
       "startDate": "2026-05",
       "endDate": "Present",
-      "summary": "Working on engineering and algorithmic research for next-generation LLM pre-training, including gradient-based influence data selection, SAE-guided diversity optimization, scaling laws, and low-quality data detection."
+      "summary": "Built and evaluated gradient-based data selection methods for targeted capabilities in continued pretraining. Also worked on corpus analysis, cluster-level data curation, and semantic deduplication."
     },
     {
       "name": "Oracle Labs",
@@ -76,6 +76,20 @@
     }
   ],
   "projects": [
+    {
+      "name": "Influence-Guided Self-Evolving Data Synthesis",
+      "location": "EPFL",
+      "summary": "Use model feedback to identify capability gaps and guide the synthesis of training tasks, environments, and trajectories for agentic SFT and RL.",
+      "startDate": "2026-08",
+      "endDate": "Present"
+    },
+    {
+      "name": "Utility-Guided Credit Assignment for LLM Post-Training",
+      "location": "EPFL",
+      "summary": "Study which turns help an agent succeed in long-horizon RL. This builds on earlier work using reward-gradient alignment to reweight token-level supervision in on-policy distillation.",
+      "startDate": "2026-06",
+      "endDate": "Present"
+    },
     {
       "name": "PriFT: Prior-Support Guided Supervised Fine-Tuning",
       "location": "EPFL",
