@@ -344,6 +344,31 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+
+  .navbar-brand.social.navbar-social-outline {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    a {
+      display: inline-grid;
+      min-height: 32px;
+      place-items: center;
+      color: var(--global-text-color);
+
+      &:hover,
+      &:focus-visible {
+        color: var(--global-theme-color);
+      }
+
+      svg.social-outline-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 0;
+      }
+    }
+  }
 }
 
 .navbar-toggler {
