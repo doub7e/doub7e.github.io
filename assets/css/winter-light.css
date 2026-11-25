@@ -58,7 +58,8 @@
 .winter-light-shadow {
   position: absolute;
   inset: -8px -28px -42px auto;
-  width: min(1088px, calc(85vw + 28px));
+  width: 85vw;
+  max-width: 1088px;
   transform-origin: 99% 4%;
   background: var(--winter-light-ink);
   opacity: 0.53;
