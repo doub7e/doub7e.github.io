@@ -16,7 +16,15 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}{% if page.winter_light %} winter-light-page{% endif %}">
+    {% if page.winter_light %}
+      <div class="winter-light-scene" aria-hidden="true">
+        <div class="winter-light-field"></div>
+        <div class="winter-light-beam"></div>
+        <div class="winter-light-shadow"></div>
+        <div class="winter-light-grain"></div>
+      </div>
+    {% endif %}
     <!-- Header -->
     {% include header.liquid %}
 

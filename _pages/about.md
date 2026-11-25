@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+winter_light: true
 subtitle: Ph.D. candidate at EPFL · Agentic data, SFT, and RL
 
 profile:

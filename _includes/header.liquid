@@ -135,6 +135,26 @@
               </button>
             </li>
           {% endif %}
+          {% if page.winter_light %}
+            <li class="nav-item winter-light-control">
+              <button class="winter-light-toggle" type="button" aria-pressed="true" hidden>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.55"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="4.5" y="4.5" width="15" height="15" rx="1"></rect>
+                  <path d="M12 4.5v15M4.5 12h15m-4.5 4.2 2.4-2.2"></path>
+                </svg>
+                <span>Window light</span>
+              </button>
+            </li>
+          {% endif %}
         </ul>
       </div>
     </div>
