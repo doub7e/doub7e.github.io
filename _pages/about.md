@@ -32,4 +32,4 @@ I use model feedback to identify where agents struggle and decide which tasks an
 
 My earlier work includes [LoRIF](https://arxiv.org/abs/2601.21929) on scalable training data attribution and [PriFT](https://arxiv.org/abs/2606.09396) on using a pretrained model to guide supervised fine-tuning. Both papers were accepted at **NeurIPS 2026**.
 
-Since May 2026, I have also been a research intern on the foundation model team at [IQuestLab](https://iquestlab.github.io/), where I work on training data selection and curation for LLM pretraining. If our interests overlap, feel free to [get in touch](mailto:shuangqi.li@epfl.ch).
+From May to October 2026, I was a research intern on the foundation model team at [IQuestLab](https://iquestlab.github.io/), where I worked on training data selection and curation for LLM pretraining and mid-training. If our interests overlap, feel free to [get in touch](mailto:shuangqi.li@epfl.ch).
